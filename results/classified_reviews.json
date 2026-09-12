@@ -1,0 +1,102 @@
+[
+  {
+    "review_id": "f9afaddc-8862-4cbf-9980-6466e09cd5d7",
+    "text": "easy to use for us technically challenged. Helps connect entire group without flooding phone with confusing messages from mptl. people I dont know yet",
+    "rating": 5,
+    "date": "2026-09-11T07:40:27",
+    "version": "8.25.2",
+    "thumbs_up": 0,
+    "label": "ux-complaint",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "d4204f80-2f5d-4528-b077-e6f9171e93fc",
+    "text": "I sent a message to my Mrs using signal. it got stuck on one tick and wouldn't go. I sent it via WhatsApp and she replied within ten seconds. as I'm writing this the signal message still hasn't gone/been received . yes it's up to date. and yes I've cleared the cache. and yes I've restarted the phone. it's been like this for months. how am I supposed to convince other people to use signal when it doesn't work properly. I'm this close from ditching signal unfortunately",
+    "rating": 2,
+    "date": "2026-09-10T22:04:03",
+    "version": "8.26.4",
+    "thumbs_up": 1,
+    "label": "bug-report",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "cf3923de-e5c1-4bea-b8db-631809f910d8",
+    "text": "basically I'm using this app since 3months, now a days I'm having issues regarding notifications app is not working in background might have some problem I doesn't understand I'm missing my important notifications. help me out to this issue thank you.",
+    "rating": 4,
+    "date": "2026-09-10T20:36:41",
+    "version": "8.25.2",
+    "thumbs_up": 2,
+    "label": "bug-report",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "386ffe55-790a-42ea-a015-7406c53d85b8",
+    "text": "Needs more work and easy-to-use functions, delete block buttons not working. now signal is where it should be",
+    "rating": 2,
+    "date": "2026-09-10T20:35:59",
+    "version": "8.25.2",
+    "thumbs_up": 1,
+    "label": "bug-report",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "9aaad658-7c7b-4f14-b640-f56f2500c024",
+    "text": "extremely difficult to navigate because there are no COMPLETE explanations. explaining halfway doesnt work for those of us whose online abilities are self taught.",
+    "rating": 2,
+    "date": "2026-09-10T19:35:16",
+    "version": "8.25.2",
+    "thumbs_up": 1,
+    "label": "ux-complaint",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "57da39cf-05ec-408a-83fd-f73777d8f519",
+    "text": "was a bit difficult to sync on my macbook after getting a new phone and getting rid of my old one",
+    "rating": 4,
+    "date": "2026-09-10T13:30:25",
+    "version": "8.25.2",
+    "thumbs_up": 0,
+    "label": "ux-complaint",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "7704d1aa-cb02-4051-8285-a388a762d82f",
+    "text": "I really enjoying using the app that why i gave 3 star but Its so annoying that Nigeria number can no longer using it any time i try register with my Nigeria number saying we couldn't send code it's really frustrating Make it work by using any numbers to register",
+    "rating": 3,
+    "date": "2026-09-10T00:40:29",
+    "version": "8.24.2",
+    "thumbs_up": 1,
+    "label": "ux-complaint",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "019164c9-4572-4107-9b3a-1d5620a47869",
+    "text": "Not working in Many countries.",
+    "rating": 1,
+    "date": "2026-09-09T10:42:41",
+    "version": "8.24.2",
+    "thumbs_up": 0,
+    "label": "bug-report",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "10981b69-3bcb-4f83-8b87-d7d0356c088e",
+    "text": "It's a fine working app, we use it for family chats where we share our pics. The only \"feature\" that absolutely sucks is the \"emoji kitchen\" thingy. If one writes a message and wants to add an emoji, all the text is lost if you pick accidentally one from the ek. very annoying.",
+    "rating": 4,
+    "date": "2026-09-09T03:56:38",
+    "version": "8.25.2",
+    "thumbs_up": 0,
+    "label": "ux-complaint",
+    "confidence": 0.75
+  },
+  {
+    "review_id": "aba52824-0e74-4c3b-be5f-d7a317adbd66",
+    "text": "the only thing I wish was different",
+    "rating": 5,
+    "date": "2026-09-08T21:21:42",
+    "version": "8.25.2",
+    "thumbs_up": 0,
+    "label": "feature-request",
+    "confidence": 0.75
+  }
+]
