@@ -3,7 +3,7 @@ Shared configuration for the RDD ingestion -> filtering -> classification pipeli
 
 Maps directly onto pipeline_requirements.md (P1, P2, P3 / CORE-3, CORE-4).
 """
-
+import os
 # --- P1: Ingestion ---------------------------------------------------------
 SIGNAL_APP_ID = "org.thoughtcrime.securesms"   # Signal on Google Play
 REQUIRED_FIELDS = ["text", "rating", "date", "version"]  # P1.1 minimum fields
@@ -20,7 +20,7 @@ ALLOWED_LANGUAGE = "en"            # P2.1 — non-English reviews are deferred
 # --- P3: Classification ------------------------------------------------------
 LABELS = ["bug-report", "feature-request", "ux-complaint", "non-actionable"]
 UNCLASSIFIED_LABEL = "unclassified"
-CONFIDENCE_THRESHOLD = 0.55        # below this -> UNCLASSIFIED_LABEL (P3.2)
+CONFIDENCE_THRESHOLD = 0        # below this -> UNCLASSIFIED_LABEL (P3.2)
 
 # Zero-shot hypothesis template for the NLI-based placeholder classifier.
 # roberta-large-mnli scores each label as an entailment hypothesis against
@@ -35,7 +35,8 @@ LABEL_DESCRIPTIONS = {
 
 # Placeholder classifier model now; swap for your fine-tuned checkpoint later.
 ZERO_SHOT_MODEL_NAME = "roberta-large-mnli"
-FINE_TUNED_MODEL_PATH = None  # set to a local path once Phase 2 fine-tuning is done
+_PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+FINE_TUNED_MODEL_PATH = os.path.join(_PROJECT_ROOT, "models", "roberta_final")
 
 # --- Logging -----------------------------------------------------------------
 DEFERRED_LOG_PATH = "logs/deferred_reviews.jsonl"
